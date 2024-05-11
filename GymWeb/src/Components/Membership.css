@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    height: max-content;
+    width: 100%;
+}
+.wrapper{
+    background: black;
+    color: white;
+    /* background-image: url(membpic.jpeg); */
+    height: 400px;
+    width: 100%;
+   
+}
+.wrapper h1{
+    top: 30%;
+    left: 20%;
+    position: absolute;
+    transform: translate(-30% , -20%);
+    padding: 20px;
+    font-size: 40px;
+
+    
+}
+.wrapper h2{
+    top: 35%;
+    left: 20%;
+    position: absolute;
+    transform: translate(-30% , -20%);
+    padding: 20px;
+    font-size: 30px;
+
+    
+}
+.wrapper img{
+    height: 400px;
+    width: 100%;
+    
+}
+.memcontent{
+    height: 60px;
+    width: 100%;
+    background:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border-bottom: 2px solid black;
+}
+/* .memcontent input{
+    padding: 10px;
+    border-radius: 5px;
+    width: fit-content; */
+/* } */
+.div{
+    height: 30px;
+    /* width: 50px; */
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px;
+    border: 2px solid black;
+
+    
+}
+.div:hover{
+    
+        transform: scale(1.1);
+        transition: .5s ;
+       background: crimson;
+       color: white;
+      
+}
+.table-con{
+    background: white;
+}
+
+.table-con table tr td{
+    border: 2px solid;
+    width: 300px;
+    height: 40px;
+    text-align: center;
+}
+
+.card{
+    background: white;
+    width: fit-content;
+    border: 2px solid black;
+    padding: 20px;
+    padding-left: 20px;
+}
