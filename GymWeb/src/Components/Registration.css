@@ -44,7 +44,7 @@
   
 }
 .formhold{
-background-image: url(regbg.jpeg); 
+/* background-image: url(regbg.jpeg);  */
 background-repeat: no-repeat;
 background-size: cover;
    height: 700px;

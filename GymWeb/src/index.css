@@ -17,15 +17,15 @@ html{
   justify-content:space-between;
   /* border: 2px solid red; */
 }
-.nav img {
-  /* height: 80px;
+/* .nav img {
+  height: 80px;
   border-radius: 10px;
   margin-left: 40px;
   transition: .5s ;
   border: 2px solid red;
-  */
+ 
 
-}
+} */
 .nav img:hover{
 transform: scale(1.1);
 }
@@ -90,7 +90,7 @@ display: inline-block;
 .Bgimage{
   height: 100vh;
   /* width: 100%; */
-  background-image: url(back.jpeg);
+  /* background-image: url(back.jpeg); */
   background-size: cover;
 }
 
@@ -194,7 +194,7 @@ font-size: 20px;
 
 }
 .img-box #img-1{
-  background-image: url(pic1.jpeg);
+  /* background-image: url(pic1.jpeg); */
   background-position: center;
   background-size: cover;
   height: 400px;
@@ -202,7 +202,7 @@ font-size: 20px;
 
 }
 .img-box #img-2{
-  background-image: url(pic2.jpeg);
+  /* background-image: url(pic2.jpeg); */
   background-position: center;
   background-size: cover;
   height: 400px;
@@ -210,21 +210,21 @@ font-size: 20px;
   
 }
 .img-box #img-3{
-  background-image: url(pic3.jpeg);
+  /* background-image: url(pic3.jpeg); */
   background-position: center;
   background-size: cover;
   height: 400px;
   width: 400px;
 }
 .img-box #img-4{
-  background-image: url(pic4.jpeg);
+  /* background-image: url(pic4.jpeg); */
   background-position: center;
   background-size: cover;
   height: 400px;
   width: 400px;
 }
 .img-box #img-5{
-  background-image: url(pic5.jpeg);
+  /* background-image: url(pic5.jpeg); */
   background-position: center;
   background-size: cover;
   height: 400px;

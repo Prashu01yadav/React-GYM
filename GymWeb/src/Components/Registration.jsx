@@ -7,7 +7,9 @@ const Contactus = () => {
         <h1>REGISTER TO JOIN <br /> THE EXCELLENCE FITNESS </h1>
       <img src="regpic.jpeg" alt="none" />
     </div>
-    <div className='formhold'>
+    <div className='formhold' style={{
+       backgroundImage: `url(regbg.jpeg)`
+    }}>
     
     <form>
    

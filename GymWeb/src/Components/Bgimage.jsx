@@ -5,7 +5,9 @@ import Locationgym from './Locationgym'
 function Bgimage() {
   return (
     <>
-    <div className='Bgimage'>
+    <div className='Bgimage' style={{
+      backgroundImage: `url("back.jpeg")`
+    }}>
 
  {/* <Navbar></Navbar> */}
  <div className='quote'>
@@ -52,11 +54,21 @@ function Bgimage() {
     
     <div className='img-content'>
     <div className='img-box'>
-      <div id='img-1'></div>
-      <div id='img-2'></div>
-      <div id='img-3'></div>
-      <div id='img-4'></div>
-      <div id='img-5'></div>
+      <div id='img-1' style={{
+        backgroundImage: `url("pic1.jpeg")`
+      }}></div>
+      <div id='img-2' style={{
+         backgroundImage: `url("pic2.jpeg")`
+      }}></div>
+      <div id='img-3' style={{
+         backgroundImage: `url("pic3.jpeg")`
+      }}></div>
+      <div id='img-4' style={{
+         backgroundImage: `url("pic4.jpeg")`
+      }}></div>
+      <div id='img-5' style={{
+         backgroundImage: `url("pic5.jpeg")`
+      }}></div>
     
   </div>
   </div>
